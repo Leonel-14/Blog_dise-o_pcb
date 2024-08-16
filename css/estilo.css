@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+/*HEADER--------------------------------------------------------*/
+
+.encabezado{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: min-content;
+    background-color: rgba(100,255,100,0.3);
+    font-family: "Electrolize", sans-serif;
+    
+}
+.contenedor_titulo_nav{
+    width: 98%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegacion{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.link_diseños{
+    font-size: 1.5em;
+    font-weight: bolder;
+
+}
+.link_ingresar{
+    font-size: 2em;
+    background-color: gold;
+    border-radius: 5px;
+    padding-right: 5px;
+    
+}
+.link_ingresar, .link_diseños{
+    text-decoration: none;
+    color: black;
+    
+}
+
+/*--------------------------------------------------------*/
+/*Proteus--------------------------------------------------------*/
+.proteus{
+    width: 100%;
+}
+.contenedor_img_proteus{
+    width: 200px;
+    margin-left: 30px;
+}
+.contenedor_img_proteus img{
+    width: 100%;
+}
+/*--------------------------------------------------------*/
+/*Seccion Diseños--------------------------------------*/
+
+.seccion_diseños{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.contenedor_diseños{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 20px;
+
+}
+.contenedor_img_pcb{
+    width: 300px;
+}
+.contenedor_img_electronico{
+    width: 500px;
+}
+.contenedor_img_pcb img, .contenedor_img_electronico img{
+    width: 100%;
+}
+.contenedor_nombre_descripcion{
+    width: 250px;
+    text-align: center;
+}
+.contenedor_botones{
+    width: 150px;
+    height: 100%;
+    text-align: center;
+}
+.contenedor_botones li{
+    background-color: gold;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_botones li:hover{
+    background-color: rgb(255, 225, 28);
+}
+.contenedor_botones li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+}
+.contenedor_botones ul{
+    list-style-type: none;
+}
+
+/*-------------------------------------------------------*/
